@@ -1,5 +1,10 @@
-def getFibNumCycle (number, value = 1, beforeValue = 1, counter = 0, buffValue = 0):
-
+def getFibNumCycle (number, ):
+    
+    value = 1
+    beforeValue = 1
+    buffValue = 0
+    counter = 0
+   
     while number != counter:
 
         buffValue = value
